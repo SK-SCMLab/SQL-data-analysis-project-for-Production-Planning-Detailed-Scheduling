@@ -41,5 +41,47 @@ Food manufacturers must:
 ---
 
 ## 🎍 Case study
+### 1. Ingredient availability for Production scheduling
+Check if enough ingredients exist in inventory to fulfill the production order
 
+### 2. Scheduled utilization of bakery lines
+See production orders by line and time to avoid overbooking
+
+### 3. Ingredient expiry and reordering needs
+Identify ingredients lots expiring soon or below reorder threshold
+
+### 4. Production Order Progress Tracking
+Show each order's stepwise progress and tracking
+
+---
+
+## 🎄 Requirements
+- SELECT()
+- FROM()
+- WHERE()
+- CREATE()
+- ORDER BY()
+- DROP()
+- AUTOINCREMENT()
+- INTERGER()
+- PRIMARY KEY()
+- FOREIGN KEY()
+- REFERENCES()
+- TEXT()
+- DATE()
+- DATETIME()
+- INSERT INTO()
+- VALUES()
+- JOIN()
+- LEFT JOIN()
+- AS()
+
+---
+## 🫎 Requirements
+- DBeaver > SQLLite
+- Fundamentals of Database Management Systems
+- Production Planning & Detailed Scheduling
+
+---
+*"A vision without a strategy remains illusion"*
 
