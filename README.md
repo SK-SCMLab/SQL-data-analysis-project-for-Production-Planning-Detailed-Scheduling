@@ -22,3 +22,24 @@ Food manufacturers must:
 
 ---
 
+## 🪿 Database schema
+|*Table*|*Definitions*|
+|-------|-------------|
+|products|defines finished food items/SKUs|
+|recipes|links each product to its recipe and process flow|
+|ingredients|raw materials with shelf life|
+|recipe_ingredients|which ingredients (and how much) for recipe|
+|Production_lines|production lines; capacities/constraints|
+|shifts|work shifts for scheduling|
+|production_orders|planned production jobs with dates, batch qty and status|
+|prod_order_steps|stepwise status per production order|
+|employees|workers(optional, for advance scheduling/assignments)|
+|inventory|tracks ingredients and finished product stocks|
+|suppliers|supplier master data|
+|purchase_orders|tracks ingredient procurement|
+
+---
+
+## 🎍 Case study
+
+
